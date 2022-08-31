@@ -30,11 +30,7 @@ function Filme() {
                 })
         }
 
-        Loadfilme();
-
-        return () => {
-            console.log('Componente foi desmontado')
-        }
+        Loadfilme()
 
     }, [navigate, id])
 

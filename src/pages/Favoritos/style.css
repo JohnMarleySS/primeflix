@@ -31,3 +31,25 @@
     color: #116feb;
     margin-right: 14px;
 }
+
+@media only screen and (max-width: 800px) {
+    .meus-filmes ul {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .meus-filmes ul li{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    
+    }
+    .meus-filmes div {
+        text-decoration: none;
+        margin-right: 14px;
+        margin-top: 10px;
+    }
+}
