@@ -1,1 +1,1 @@
-https://primeflixxx.netlify.app/
+https://web-prime-flix.netlify.app/
